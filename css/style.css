@@ -1,0 +1,80 @@
+body {
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* .game {
+    width: calc((100% - 20px) /2);
+    background-color: rgb(241, 14, 90);
+    margin: 20px auto;
+    color: white;
+    text-align: center;
+}
+
+.title {
+    background-color: rgb(241, 14, 90);
+    color: white;
+    padding: 5px 0;
+    margin: 5px 0;
+    font-size: 30px;
+   
+}
+
+.title span {
+    color: yellow;
+}
+
+.square {
+    background-color: rgb(241, 14, 90);
+    width: 80px;
+    height: 80px;
+    float: left;
+    padding: 40px;
+    margin: 25px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.square:hover {
+    background-color: black;
+    cursor: pointer;
+} */
+.game {
+    margin: 0 auto;
+    width: 500px;
+}
+.game .grid {
+    width: 500px;
+        height: 529px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    /* gap: 5px; */
+}
+
+.game .title {
+    background-color: green;
+    color: white;
+    width: 97%;
+    height: 70px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+span {
+    color: yellow;
+}
+.grid .square {
+    width: 150px;
+    height: 150px;
+    color: white;
+    background-color: green;
+    font-size: 50px;
+    text-align: center;
+    line-height: 2.5;
+}
+
+.grid .square:hover {
+    background-color: red;
+}
